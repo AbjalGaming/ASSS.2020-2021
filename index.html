@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <div class="logo">
+                <a href="" style="text-decoration:none">
+                    <span class="logo1">A</span><span class="logo2">bjal</span>
+                    <span class="logo1">G</span><span class="logo2">aming</span>
+                </a>
+            </div>
+            <div class="navbar" id="navBar">
+
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="ASSS.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contactus.html">CONACT US</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Ajmal Senior Secondary School,Kharupetia</h1>
+            <p>Students of 2020-2021</p>
+            <P>We can't forgot our college life and college friends and teachers</P>
+            <p>But when we move to university we will start forget all those classmates and teachers</p>
+            <p>We will try to remember our valuable memories through this web</p><br><br>
+            <span class="button"><a href="past.html"> MOVE TO PAST</a></p>
+        </div>
+    </section>
+
+    
+
+
+  
+
+
+
+
+
+
+
+    <!--javascript for toggle the menu bar-->
+    <script>
+        var navBar = document.getElementById("navBar");
+        function showMenu() {
+            navBar.style.right = "0";
+        }
+        function hideMenu() {
+            navBar.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

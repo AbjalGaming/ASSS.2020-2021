@@ -1,0 +1,481 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("https://i2.wp.com/www.csscodelab.com/wp-content/uploads/2019/11/html-css-only-tranquil-fireflies-effect-on-background.png?fit=1054%2C634&ssl=1");
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+}
+.logo{
+    width: 50%;
+}
+.logo1{
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+}
+.logo2{
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar{
+    float: 1;
+    text-align: right;
+}
+.navbar ul li{
+    
+    float: left;
+    position: relative;
+    padding: 8px 40px;
+    list-style: none;
+    display: inline-block;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: yellow;
+}
+.navbar ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:tomato ;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+    display: no
+
+}
+.text-box{
+    width: 100%;
+    top: 40%;
+    position: absolute;
+    text-align: center;
+    color:white;
+}
+.text-box h1{
+    font-size: 40px;
+}
+.button a{ 
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid rgb(250, 6, 6);
+    color: rgb(43, 255, 0);
+    font-size: 13px;
+    padding: 12px 34px;
+    background: transparents;
+    cursor: pointer;
+    position: relative;
+}
+.button a:hover{
+    background: #f44336;
+    transition: 1s;
+    border:1px solid yellow;
+}
+nav .fa{
+    display: none;
+}
+@media(max-width: 700px) {
+    .text-box h1{
+        font-size: 18px;
+    }
+    .text-box p{
+        font-size: 10px;
+        padding: 8px;
+    }
+    .navbar ul li{
+        display: block;
+        padding: 30px;
+    }
+    .navbar{
+        position: absolute;
+        background: red;
+        height: 100vh;
+        width: 200px;
+        top: 0%;
+        right: -200%;
+        text-align: left;
+        z-index: 2;
+        transition: 0.5s;
+    }
+    nav .fa{
+        display: block;
+        color: white;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .navbar ul{
+        padding: 30px;
+    }
+    .logo1{
+        font-size:28px;
+    }
+    .logo2{
+        font-size: 15px;
+    }
+}
+
+/*PAST*/
+
+.students{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(252, 241, 198);
+}
+
+.past-background{
+    background-color: rgba(26, 24, 23, 0.747);
+    width: 88%;
+    height:28px;
+}
+.past-head{
+    width: 100%;
+    text-align: center;
+}
+.past-head h1{
+    color: salmon;
+    letter-spacing: 10mm;
+}
+.past-head p{
+    letter-spacing: 5mm;
+    color: slategray;
+}
+
+div.gallery {
+    margin: 3px;
+    border: 1px solid #ccc;
+    padding: 30px;
+    width:80%;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  div.desc {
+    font-weight: bold;
+    font-size: 12px;
+    
+  }
+
+
+@media(max-width: 700px){
+    .past-head{
+        font-size: 10px;
+    }
+    .past-head h1{
+        letter-spacing: 6mm;
+    }
+
+} 
+
+/*about us*/
+
+#sec3{
+background-image: linear-gradient(rgba(0, 60, 138, 0.521),rgba(0, 0, 0, 0.4)),url(https://ghana.oshassociation.org/wp-content/uploads/2018/04/about-us-1.png);
+    width: 100%;
+    height: 250px;
+}
+    
+    
+
+
+.about{
+    
+    text-align: center;
+    width: 100%;
+    height: 40px;
+}
+
+@media (max-width: 700px) {
+    .about{
+        font-size: 15px;
+    }   
+    .about-text{
+        font-size: 10px;
+    }
+    #sec3{
+        display: block;
+        
+        right: 0;
+        top: 0;
+        
+    }
+
+}
+
+
+
+
+
+
+.header-2{
+    width: 100%;
+    min-height: 100%;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+}
+
+.cu{
+    width: 100%;
+    text-align: center;
+    
+
+}
+.cu a{
+    text-decoration: none;
+    border: 2px solid orangered;
+    padding: 10px;
+    color: rgb(252, 104, 5);
+    background-color: papayawhip;
+}
+
+
+/*contact form*/
+
+  
+
+
+
+ 
+      
+
+
+.wrapper {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .wrapper {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .wrapper {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .wrapper {
+    max-width: 1140px;
+  }
+}
+
+
+.d-grid {
+  display: grid;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+button,
+select {
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+button,
+.btn,
+select {
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+iframe {
+  border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Section top bottom gap */
+.section-gap {
+  padding: 4.5rem 0;
+}
+
+@media screen and (max-width:767px) {
+  .section-gap {
+    padding: 3.5rem 0;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .section-gap {
+    padding: 3rem 0;
+  }
+}
+
+/* / Section top bottom gap */
+
+/* title-styling */
+h3.global-title {
+  font-size: 40px;
+  line-height: 45px;
+  color: #16191e;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width:767px) {
+  h3.global-title {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  h3.global-title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  h3.global-title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+
+/* / title-styling */
+/* simple contact form */
+.contact-form {
+  background: #eee;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+.form-mid {
+  background: #fff;
+  padding: 3rem;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+.form-mid form input,
+.form-mid form textarea {
+  background: #f8f9fa;
+  border: 2px solid rgba(216, 216, 216, 0.3);
+  color: #777;
+  font-size: 16px;
+  padding: 12px 15px;
+  width: 100%;
+  border-radius: 4px;
+  height: 55px;
+}
+
+.form-mid form textarea {
+  resize: none;
+  min-height: 140px;
+}
+
+.form-mid form input:focus,
+.form-mid form textarea:focus {
+  outline: none;
+  border: 2px solid #051b35;
+  background: #fff;
+  box-shadow: none;
+}
+
+button.btn-contact {
+  border: none;
+  font-size: 16px;
+  padding: 15px 30px;
+  margin: 20px auto 0;
+  color: #fff;
+  background: #ff4c4c;
+  border-color: #ff4c4c;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+@media(max-width: 568px) {
+  .form-mid {
+    padding: 1.5rem;
+  }
+}
+
+/* /simple contact form */
+
+
+  /*service*/
+
+  .services{
+      width: 100%;
+      text-align: center;
+  }
